@@ -1,0 +1,10 @@
+---
+- name: Test
+  hosts: localhost
+  connection: local
+  gather_facts: no
+
+  tasks:
+    - name: DEBUG
+      debug:
+        msg: "Bing!"
