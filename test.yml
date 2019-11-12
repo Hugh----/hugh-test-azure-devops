@@ -8,3 +8,4 @@
     - name: DEBUG
       debug:
         msg: "Bing!"
+      ignore_errors: yes
